@@ -1,0 +1,47 @@
+{
+    "name": "Moodle Uploader",
+    "description": "A simple moodle uploader",
+    "repository": "https://github.com/ravenclawldz/moodle-uploader",
+    "keywords": [
+        "Moodle",
+        "Uploader",
+        "telegram bot"
+    ],
+    "env": {
+        "TELEGRAM_TOKEN": {
+            "description": "Your Bot token from @Botfather"
+        },
+        "API_ID": {
+            "description": "Your API_ID from https://my.telegram.org/apps"
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/apps"
+        },
+        "OWNER": {
+            "description": "Your telegram User ID"
+        },
+        "HOST": {
+            "description": "URL Moodle"
+        },
+        "ACCOUNT": {
+            "description": "Moodle ACCOUNT"
+        },
+        "PASSWORD": {
+            "description": "Moodle PASSWORD"
+        },
+        "PASS_MEGA": {
+            "description": "PASS_MEGA"
+        },
+        "GMAIL_MEGA": {
+            "description": "GMAIL_MEGA"
+        },
+        "MEGABYTES": {
+            "description": "MEGABYTES"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
